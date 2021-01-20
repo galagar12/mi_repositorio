@@ -1,0 +1,201 @@
+.PropiedadesDeMenu {
+  background-color: #fcba03;
+  padding: 0px 20px;
+  margin: 5px 10px 12px 15px;
+  border: double 10px red;
+  position: sticky;
+  top: 20px
+  text-transform uppercase;
+  text-align: center;
+  align-items: center; }
+
+.PruebaFlexFooterLeft1 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: flex-end;
+  align-content: center; }
+
+.PruebaFlexFooterLeft2 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  align-items: center; }
+
+.posicion__mapa {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+
+  .GridContenedor {
+  background-color:none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  padding: 10px;
+  align-content: center; }
+
+.GridTest {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center; }
+
+header {
+  background-color: none; 
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  margin: auto; }
+
+nav ul li {
+  display: inline-block;
+  padding: 20px;
+  background-color: none;
+  position: relative;
+  text-align: center;
+  align-items: center;
+  justify-content: center; }
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  align-items: center;
+  justify-content: center; }
+
+nav ul ul {
+  display: none;
+  position: absolute;
+  border-radius: 15px;
+  justify-content: center; }
+
+body {
+  background-image:url("../multimedia/images/logo3.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: sans-serif;
+  background-size:cover;
+  position: relative;
+}
+.footer__abajo{
+  background-image: linear-gradient(to right, #362d32, #322930, #2c252f, #26212e, #1e1e2d, #171d2c, #0f1c2a, #061b28, #021b24, #011b20, #011a1b, #031917);
+}
+
+h1 {
+  color: black;
+  font-family: 'Dancing Script', cursive; 
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  animation-duration: 4s;
+  animation-name: Truco; }
+
+@keyframes Truco {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+h2 {
+  color:black;
+  font-family: 'Permanent Marker', cursive;animation-duration: 4s;
+  animation-name: Truco; }
+
+.mapa {
+  height: 100px;
+  width: 400px; }
+
+.fotoindex {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.fotoindex__imgchica {
+  width: 10%;
+  border-radius: 50px; }
+
+.ColorNaranja {
+  color: orange; }
+
+p {
+  margin: 8px;
+  padding: 8px;
+  text-align: center;
+  line-height: 30px;
+  font-family: Tahoma, sans-serif;
+  text-decoration: none;
+  letter-spacing: 2px; }
+
+.logo {
+  border-radius: 10px;
+  width: 10%; }
+
+.logo__face {
+  border-image: 5px; }
+
+.logo__twiter {
+  border-image: 5px; }
+
+.logo__instagram {
+  border-image: 5px; }
+
+.direccion {
+  border-radius: 10px;
+  width: 10%; 
+  text-align:center;
+  
+}
+
+
+.direccion__central {
+  text-transform: uppercase;
+  animation-duration: 4s;
+  animation-name: Truco;
+  width: 300px; }
+
+.header {
+  background-color:white }
+
+.header__titulo {
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+  animation-duration: 4s;
+  animation-name: Truco;
+  position: absolute;
+  left: 200px;
+  top: 20px; }
+
+.carousel {
+  margin-left: 30%; }
+
+.carousel-inner img {
+  width: 65%;
+  height: 45%; }
+
+.carousel-indicators {
+  margin-left: -140px !important; }
+
+.carousel-inner .item img {
+  width: 100%; }
+
+.carousel-control-prev-icon {
+  margin-left: -60px; }
+
+.carousel-control-next-icon {
+  margin-left: -535px; }
+
+  .scale { 
+    transition: transform .2s;
+}
+  .scale:hover {
+    transform: scale(1.2);
+}
+
+#grad{
+  background-image: linear-gradient(to right, #5c6674, #3b5964, #204c4a, #1a3c2a, #202b07);
+}
